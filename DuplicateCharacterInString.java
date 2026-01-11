@@ -5,7 +5,7 @@ public class DuplicateCharacterInString {
         String s = "programming";    
         int len = s.length();    
         char[] ch = s.toCharArray();    
-        System.out.println("Duplicate characters in the given string: ");    
+        System.out.println("Duplicate Characters In The Given String: ");    
         for(int i = 0; i < len; i++) {    
             for(int j = i + 1; j < len; j++) {    
                 if(ch[i] == ch[j]) {    
